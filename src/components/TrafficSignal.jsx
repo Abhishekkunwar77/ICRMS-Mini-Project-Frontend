@@ -51,7 +51,7 @@ import PedestrianProhibited from "../components/assets/PedestrianProhibited.png"
 import loosegravel from "../components/assets/loosegravel.png";
 import hospital from "../components/assets/hospital.png";
 
-import leftReverseBend from "../components/assets/leftReverseBend.png";
+import leftReverseBend from "../components/assets/LeftReverseBend.png";
 import petrolpump from "../components/assets/petrolpump.png";
 import RunwayAhead from "../components/assets/RunwayAhead.png";
 import twowayoperationahead from "../components/assets/twowayoperationahead.png";
