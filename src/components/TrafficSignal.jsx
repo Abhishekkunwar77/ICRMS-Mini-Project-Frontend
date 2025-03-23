@@ -31,7 +31,7 @@ import unguardedrailwaycrossing from "../components/assets/unguardedrailwaycross
 import TrafficSignalAhead from "../components/assets/TrafficSignalAhead.png";
 import TIntersection from "../components/assets/TIntersection.png";
 import stop from "../components/assets/stop.png";
-import steepAscent from "../components/assets/steepAscent.png";
+import steepAscent from "../components/assets/SteepAscent.png";
 import steepDescent from "../components/assets/steepDescent.png";
 import StaggeredIntersection from "../components/assets/StaggeredIntersection.png";
 import SpeedBreakerAhead from "../components/assets/SpeedBreakerAhead.png";
