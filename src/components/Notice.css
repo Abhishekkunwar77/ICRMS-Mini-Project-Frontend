@@ -1,0 +1,49 @@
+.notice-container {
+    max-width: 1250px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+.notice-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.notice-table th, .notice-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.notice-table th {
+    background-color: #003366;
+    color: white;
+}
+
+
+
+.notice-table tr:hover {
+    background-color: #ddd;
+}
+
+.view-link {
+    color:slategray;
+    font-weight: bold;
+    margin-left: 5px;
+    transition: color 0.3s ease;
+}
+
+.view-link:hover {
+    color: #003366;
+}
+a{
+    text-decoration: none;
+}

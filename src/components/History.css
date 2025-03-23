@@ -1,0 +1,43 @@
+.history-container {
+  max-width: 1250px;
+  margin: 50px auto;
+  padding: 20px;
+  color: black; /* Light text */
+  font-family:  monospace; 
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.history-container h1 {
+  color: #003366;
+  font-size: 24px;
+  text-align: center;
+  border-bottom: 2px solid #003366;
+  padding-bottom: 10px;
+}
+
+.history-container p {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.history-container p:first-letter {
+  font-size: 28px;
+  font-weight: bold;
+  color: #003366; /* First letter styling */
+}
+
+@media (max-width: 768px) {
+  .history-container {
+    padding: 15px;
+  }
+
+  .history-container h1 {
+    font-size: 20px;
+  }
+
+  .history-container p {
+    font-size: 14px;
+  }
+}

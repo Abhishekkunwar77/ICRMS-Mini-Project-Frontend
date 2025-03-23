@@ -1,0 +1,36 @@
+.admin-container {
+  max-width: 1250px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.admin-table th {
+  background: #003366;
+  color: white;
+}
+
+
+
+.admin-table tbody tr:hover {
+  background: #ddd;
+}

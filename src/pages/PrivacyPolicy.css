@@ -1,0 +1,116 @@
+.privacy-policy-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.privacy-policy-container h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.privacy-policy-container h2 {
+  font-size: 1.5rem;
+  color: #2980b9;
+  border-bottom: 2px solid #2980b9;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+.privacy-policy-container h3 {
+  font-size: 1.3rem;
+  color: #16a085;
+  margin-top: 15px;
+}
+
+.privacy-policy-container p {
+  font-size: 1rem;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.privacy-policy-container ul {
+  padding-left: 20px;
+}
+
+.privacy-policy-container ul li {
+  list-style-type: square;
+  margin-bottom: 5px;
+}
+
+.privacy-policy-container a {
+  color: #e74c3c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.privacy-policy-container a:hover {
+  text-decoration: underline;
+}
+
+.privacy-policy-container .contact {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+/* ✅ RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  .privacy-policy-container {
+    padding: 15px;
+    max-width: 95%;
+  }
+
+  .privacy-policy-container h1 {
+    font-size: 1.8rem;
+  }
+
+  .privacy-policy-container h2 {
+    font-size: 1.3rem;
+  }
+
+  .privacy-policy-container h3 {
+    font-size: 1.2rem;
+  }
+
+  .privacy-policy-container p {
+    font-size: 0.95rem;
+  }
+}
+
+/* For small screens (mobile) */
+@media (max-width: 480px) {
+  .privacy-policy-container {
+    padding: 10px;
+    max-width: 90%;
+  }
+
+  .privacy-policy-container h1 {
+    font-size: 1.6rem;
+  }
+
+  .privacy-policy-container h2 {
+    font-size: 1.2rem;
+  }
+
+  .privacy-policy-container h3 {
+    font-size: 1.1rem;
+  }
+
+  .privacy-policy-container p {
+    font-size: 0.9rem;
+  }
+
+  .privacy-policy-container ul {
+    padding-left: 15px;
+  }
+
+  .privacy-policy-container .contact {
+    font-size: 0.95rem;
+  }
+}
+

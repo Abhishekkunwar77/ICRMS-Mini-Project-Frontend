@@ -1,0 +1,74 @@
+.traffic-signs-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.traffic-sign {
+  width: 250px;
+  text-align: center;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.traffic-sign:hover {
+  transform: scale(1.05);
+}
+
+.traffic-sign img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.traffic-sign h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.traffic-sign p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
+h1{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color:#003366 !important;
+}
+.necessity-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray background */
+  border-left: 5px solid #003366; /* Dark red left border for emphasis */
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.necessity-section h2 {
+  text-align: center;
+  font-size: 25px;
+  color: #003366; 
+  margin-top:-8px;
+}
+
+.necessity-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.necessity-section li {
+  font-size: 16px;
+  color: #333;
+  margin: 6px 0;
+  line-height: 1.6;
+}

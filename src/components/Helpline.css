@@ -1,0 +1,47 @@
+.helpline-container {
+  max-width: 1250px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.helpline-container h2 {
+  color: #003366;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.helpline-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.helpline-table th, .helpline-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.helpline-table th {
+  background-color: #003366;
+  color: white;
+}
+
+
+
+.helpline-table tr:hover {
+  background-color: #ddd;
+}
+
+@media screen and (max-width: 600px) {
+  .helpline-container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .helpline-table th, .helpline-table td {
+    font-size: 14px;
+    padding: 8px;
+  }
+}

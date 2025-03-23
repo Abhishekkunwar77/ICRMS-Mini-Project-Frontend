@@ -1,0 +1,30 @@
+{
+  "name": "fir-management-system",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.2.2"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@mui/material": "^6.4.8",
+    "axios": "^1.8.4",
+    "json-server": "^1.0.0-beta.3",
+    "jwt-decode": "^4.0.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.4.0",
+    "react-slick": "^0.30.3",
+    "react-toastify": "^11.0.5",
+    "slick-carousel": "^1.8.1"
+  }
+}
