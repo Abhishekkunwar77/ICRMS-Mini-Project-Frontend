@@ -23,9 +23,9 @@ const App = () => {
       <Router>
         <Navbar />
         <AppRoutes />
-      
+        <Footer/>
       </Router>
-      <Footer/>
+    
     </AuthContext.Provider>
   );
 };

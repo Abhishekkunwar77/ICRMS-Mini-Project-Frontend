@@ -176,7 +176,9 @@ h3{
   justify-content: center;
   align-items: center;
 }
-
+.service-item img:hover{
+  border: 2px dotted green;
+}
 .service-item p {
   margin-top: 10px;
   font-size: 14px;

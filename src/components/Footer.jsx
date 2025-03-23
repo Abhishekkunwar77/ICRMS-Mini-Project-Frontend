@@ -21,6 +21,7 @@ import {
 import "./Footer.css";
 import TermsOfService from "./TermsOfService"; // Import TermsOfService
 import PrivacyPolicy from "../pages/PrivacyPolicy"; // Import PrivacyPolicy
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const [showTerms, setShowTerms] = useState(false);
@@ -163,7 +164,7 @@ const Footer = () => {
             >
               <b className="cmbplc"> Coimbatore Police</b>
             </a>
-            . All Rights Reserved | Designed & Developed by <b><a className="contact-developer" href="/contact-developer">Parmatma</a></b>
+            . All Rights Reserved | Designed & Developed by <b><Link className="contact-developer" to="/contact-developer">Parmatma</Link></b>
           </p>
           <a
             className="tos"
@@ -173,9 +174,9 @@ const Footer = () => {
             Terms of Service
           </a>
           &nbsp; | &nbsp;
-          <a className="pp" href="/privacy-policy">
+          <Link className="pp" to="/privacy-policy">
             Privacy Policy
-          </a>
+          </Link>
         </div>
       </div>
       {showTerms && <TermsOfService onClose={handleCloseTerms} />}
