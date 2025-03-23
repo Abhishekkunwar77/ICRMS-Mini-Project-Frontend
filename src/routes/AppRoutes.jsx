@@ -13,7 +13,7 @@ import PrivacyPolicy from "../pages/PrivacyPolicy";
 import TermsOfService from "../components/TermsOfService";
 import WhosWho from "../components/Whoswho";
 import History from "../components/History";
-import Map from "../components/map";
+import Map from "../components/Map";
 import TrafficSignal from "../components/TrafficSignal";
 import Helpline from "../components/Helpline";
 import Notice from "../components/Notice";
