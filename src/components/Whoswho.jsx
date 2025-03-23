@@ -1,5 +1,5 @@
 import React from "react";
-import "./WhosWho.css";
+import "./Whoswho.css";
 
 const WhosWho = () => {
   const developmentData = [
