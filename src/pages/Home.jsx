@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Home.css";
-
+import PoliceCommissioner from "./PoliceCommissioner";
 // Importing images
 import logo1 from "./images/logo1.png";
 import logo2 from "./images/logo2.png";
@@ -82,13 +82,9 @@ const Home = () => {
 
   return (
     <div className="home-container">
-      <h1 className="home-title">Welcome to the FIR Management System</h1>
-      <p className="home-description">
-        The FIR Management System helps users file, track, and manage First
-        Information Reports (FIRs) efficiently. Whether you're a citizen, police
-        officer, or administrator, our system ensures transparency and quick
-        case resolution.
-      </p>
+      <PoliceCommissioner />
+     
+   
 
       <div className="features">
         <h2>Key Features:</h2>

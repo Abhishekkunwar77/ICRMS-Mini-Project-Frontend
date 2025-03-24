@@ -1,0 +1,79 @@
+.commissioner-section {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  gap: 50px;
+  padding: 20px;
+}
+
+/* Left Section (Text + Image) */
+.left-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 50px;
+  height:340px;
+}
+
+.station-img {
+  width: 550px;
+  border-radius: 8px;
+  height: 250px;
+}
+
+.left-content {
+  text-align: justify;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Right Section (Auto-Sliding Images) */
+.right-section {
+  flex: 2;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: white;
+  height:370px;
+}
+
+/* Slider Container */
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider-img {
+  width: 100%;
+  height: auto; /* Ensure consistent height */
+  object-fit: cover; /* Prevent stretching while filling the space */
+  border-radius: 10px;
+  display: block; 
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+  .commissioner-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-section {
+    width: 90%;
+  }
+
+  .right-section {
+    width: 90%;
+  }
+}

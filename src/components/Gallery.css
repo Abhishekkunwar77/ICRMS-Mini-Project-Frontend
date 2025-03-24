@@ -92,7 +92,7 @@
 }
 
 .close-btn:hover {
-  background: red;
+  background-color: red !important;
   transform: scale(1.1);
 }
 
